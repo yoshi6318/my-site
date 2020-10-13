@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <!-- adobe font - futura PT -->
+    <link rel="stylesheet" href="https://use.typekit.net/qkg6tab.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Yoshifumi Mizukawa</title>
+  </head>
+  <body>
+    <header class="nav-header">
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="home" id="home">
+          <div class="title">
+            <h1 class="title-copy">Design<br />&<br /><span>Develop</span></h1>
+          </div>
+          <div class="scroll">
+            <div class="scroll-text">
+              <p>scroll<span></span></p>
+            </div>
+          </div>
+          <div class="contact">
+            <a target="_blank" href="mailto:mizukawa6318&#64;gmail.com">
+              <span></span>contact</a
+            >
+          </div>
+          <!-- <div class="dot-box"></div> -->
+        </div>
+      </section>
+
+      <section id="about" class="about section s1">
+        <div class="about-wrapper">
+          <div class="about-title">
+            <h2 class="about-title-text">WHO<br />I<br />AM</h2>
+          </div>
+          <div class="about-name">
+            <p>my name is...</p>
+            <h3>Yoshifumi Mizukawa</h3>
+          </div>
+          <div class="about-desc">
+            <p>
+              I am a Japanese web designer and front-end engineer who loves
+              creating beautiful things. <br />I am enjoy illustration and
+              photography. I would love to work with people who have a vision to
+              make new ideas into reality. I hope I can work to make a better,
+              more beautiful world with you
+            </p>
+            <a href="#"><div class="about-btn">more</div></a>
+          </div>
+          <div class="about-img">
+            <img src="./img/about.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="works" data-barba="wrapper" class="works section s2">
+        <a
+          href="works.html"
+          data-barba="container"
+          data-barba-namespace="home"
+          class="works-wrapper orange"
+        >
+          <div class="works-arrow-left">
+            <div></div>
+            <div></div>
+          </div>
+          <div class="works-title">
+            <h2>
+              PROJECT
+              <span>PROJECT</span>
+              PROJECT
+            </h2>
+          </div>
+          <div class="works-arrow-right">
+            <div></div>
+            <div></div>
+          </div>
+        </a>
+      </section>
+
+      <section id="services" class="services section s3">
+        <div class="services-wrapper">
+          <div class="services-title">
+            <div class="moon">
+              <h2>Services</h2>
+            </div>
+          </div>
+          <div class="services-contents">
+            <div class="services-card">
+              <img class="design-img" src="img/design.svg" alt="design" />
+              <h3>Design</h3>
+              <p class="services-desc">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aliquam, doloribus!
+              </p>
+            </div>
+            <div class="services-card">
+              <img class="dev-img" src="/img/develop.svg" alt="develop" />
+
+              <h3 class="dev-text">Develop</h3>
+
+              <p class="services-desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Maxime, quo.
+              </p>
+            </div>
+          </div>
+          <div class="service-contact">
+            <a target="_blank" href="mailto:mizukawa6318&#64;gmail.com"
+              ><p class="contact-text">contact</p></a
+            >
+          </div>
+        </div>
+      </section>
+      <footer>
+        <p>© 2020 Yoshifumi Mizukawa</p>
+      </footer>
+    </main>
+
+    <nav class="nav-bar">
+      <ul class="nav-links">
+        <a href="https://www.instagram.com/yoshi6318/" target="_blank"
+          ><h3>Instagram</h3></a
+        >
+        <a href="https://github.com/yoshi6318" target="_blank"
+          ><h3>GitHub</h3></a
+        >
+        <a href="https://dribbble.com/yoshi6318" target="_blank"
+          ><h3>Dribble</h3></a
+        >
+      </ul>
+      <div class="nav-bar-home">
+        <a
+          class="nav-contact"
+          target="_blank"
+          href="mailto:mizukawa6318&#64;gmail.com"
+          ><span></span>contact</a
+        >
+        <a class="nav-home" href="index.html">home<span></span></a>
+      </div>
+    </nav>
+    <!-- swipe -->
+    <div class="mask"></div>
+    <!-- scroll magic cdn (basic/debug.addIndicators/nimation.gsap) -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+      integrity="sha512-HzAEuXwhLxwm/Jj+5ecdjzrRVrjuh2ZeIxyT1Ln37TO5pWNMnKBuU7cfd1wvRQ/k86w1oC174Yk1T7aRlBpIcA=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
+      integrity="sha512-Ey+nIg+Ue8gUAaCNjR1KHR8nwDjWn9QXoQbynR/X+V66s6u1oqynnuRQ8zSgg5f5gBNb2Bzsu1pItCi3sPkbfA=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+      integrity="sha512-A98SmLRZISk4eIxQBeCm8k0jAcwN3A3lBx4hr7baoMpV1VpxcxlZIhi5fJIZN50sQ5RlCzx8yV+Voy2cR6x0aA=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- gsap -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- barba js -->
+    <script src="https://unpkg.com/@barba/core"></script>
+    <!-- font-awesome -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"
+      integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
